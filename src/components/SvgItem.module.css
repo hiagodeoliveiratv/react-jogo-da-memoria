@@ -1,0 +1,21 @@
+.svgItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #c5c6c7;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.svgItem img {
+    width: 40px;
+    height: 40px;
+    opacity: .2;
+}
+.selected {
+    background-color: #1b4bf7;
+    color: #fff;
+}
+.selected img {
+    opacity: 1;
+}
